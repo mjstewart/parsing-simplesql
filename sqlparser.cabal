@@ -33,6 +33,7 @@ common deps
 
 executable sqlparser
   import: deps
+  hs-source-dirs:      src
   main-is:             Main.hs
   mixins:              base hiding (Prelude)
                      , relude (Relude as Prelude)
