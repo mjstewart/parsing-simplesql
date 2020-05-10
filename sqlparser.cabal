@@ -37,6 +37,7 @@ executable sqlparser
   main-is:             Main.hs
   mixins:              base hiding (Prelude)
                      , relude (Relude as Prelude)
+  other-modules:       AST
   build-depends:       relude
                      , text
                      , containers

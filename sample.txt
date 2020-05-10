@@ -1,0 +1,5 @@
+CREATE TABLE purchase_orders (
+  id int,
+  sku text,
+  name text
+);
